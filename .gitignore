@@ -1,0 +1,30 @@
+# IDE's, Jupyter Notebook, etc...
+.DS_Store
+.idea
+.ipynb_checkpoints
+*.env
+# *.ipynb
+.pytest_cache
+.vscode/
+*.code-workspace
+*.xlsx
+# Compiled python modules, cache
+__pycache__
+*.pyc
+# Setuptools distribution folder.
+/dist/
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+
+# custom
+/venv
+csv/
+*.docx
+*.doc
+app/cache/*
+app/output_files/*
+*~lock*
+
+.auth
+
+.vercel
